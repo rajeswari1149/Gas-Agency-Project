@@ -9,13 +9,14 @@ import {
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD9OfSs3dzBdeLRrHoxM5Y8EyD_nsOeyH4",
-    authDomain: "gasbooking-8609e.firebaseapp.com",
-    projectId: "gasbooking-8609e",
-    storageBucket: "gasbooking-8609e.appspot.com",
-    messagingSenderId: "214967225746",
-    appId: "1:214967225746:web:f4cd3c4bddf6d405ad854b"
+  apiKey: YOU-API-KEY,
+  authDomain: YOU-AUTH-DOMAIN,
+  projectId: YOUR-PROJECT-ID,
+  storageBucket: YOUR-STORAGE-BUCKET,
+  messagingSenderId: YOUR-MESSAGING-ID,
+  appId: YOUR-AI-ID,
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
