@@ -34,6 +34,29 @@ A modern web-based gas booking system where users can register, book gas cylinde
 
 ---
 
+## 🔧 Update Your Firebase Config
+
+Before running the application, update your Firebase configuration in all JavaScript files that initialize Firebase (like `homepage.js`, `admin-booking.js`, etc.).
+
+### ✅ Steps:
+1. Go to your [Firebase Console](https://console.firebase.google.com/).
+2. Click on your project > ⚙️ Project Settings > scroll to **Your Apps**.
+3. Copy the Firebase SDK snippet (the `firebaseConfig` object).
+4. Replace the existing `firebaseConfig` in your JavaScript files:
+
+```js
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_ID",
+  appId: "YOUR_APP_ID"
+};
+```
+
+---
+
 ## 📁 Folder Structure
 
 gas-booking-system/ ├── index.html # Landing Page ├── register.html # User Registration Page ├── login.html # User Login Page ├── homepage.html # User Dashboard ├── admin-login.html # Admin Login Page ├── admin-booking.html # Admin Dashboard for Booking Management ├── assets/ │ ├── css/ # Stylesheets │ ├── js/ # All JS files (homepage.js, admin-booking.js, etc.) │ └── images/ # Images & logos
