@@ -1,6 +1,5 @@
 # Gas-Agency-Project
 A gas-booking system using HTML, CSS, JS &amp; Firebase
-# GoGas - Online Gas Booking System 🔥
 
 A modern web-based gas booking system where users can register, book gas cylinders, track booking status, and manage their profiles. Admins can manage bookings and users efficiently using Firebase.
 
